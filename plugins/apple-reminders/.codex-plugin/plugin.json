@@ -1,0 +1,29 @@
+{
+  "name": "apple-reminders",
+  "version": "0.1.0+codex.20260920060857",
+  "description": "Use the local macOS Reminders app from Codex to list, search, create, update, complete, and delete reminders.",
+  "author": {
+    "name": "programmer-no19"
+  },
+  "interface": {
+    "displayName": "Apple Reminders",
+    "shortDescription": "Manage macOS Reminders from Codex.",
+    "longDescription": "Apple Reminders connects Codex to the local macOS Reminders app. Read your lists, search open reminders, and create or manage reminders without sending data to a cloud service.",
+    "developerName": "programmer-no19",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "brandColor": "#DCEBFF",
+    "composerIcon": "./assets/apple-reminders-icon.png",
+    "logo": "./assets/apple-reminders-icon.png",
+    "logoDark": "./assets/apple-reminders-icon.png",
+    "defaultPrompt": [
+      "Show my open reminders for today.",
+      "Add a reminder to my Reminders list.",
+      "Find my overdue reminders."
+    ]
+  },
+  "mcpServers": "./.mcp.json"
+}

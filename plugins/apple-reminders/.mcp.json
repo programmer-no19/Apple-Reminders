@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "apple-reminders": {
+      "command": "python3",
+      "args": ["./scripts/server.py"],
+      "cwd": "."
+    }
+  }
+}
